@@ -1,0 +1,17 @@
+{
+    "name": "cloudanalytics/service",
+    "description": "Cloud-based service for basic data analytics on documents",
+    "type": "project",
+    "require": {
+        "google/apiclient": "^2.0",
+        "smalot/pdfparser": "^2.0",
+        "phpoffice/phpword": "^1.0",
+        "monolog/monolog": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CloudAnalytics\\": "src/"
+        }
+    }
+}
+
